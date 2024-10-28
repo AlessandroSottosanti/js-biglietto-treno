@@ -57,18 +57,17 @@ if (!isNaN(userDistance) && !isNaN(userAge)) {
 
 // Output
 
-    console.log(`Prezzo biglietto: ${baseTicketPrice.toFixed(2)} euro`); 
+    console.log(`Prezzo biglietto: ${parseFloat(baseTicketPrice.toFixed(2))} euro`); 
 
     if(state === "minorenni" || state === "over 65") {
         console.log(`Applicato sconto per ${state} del ${discountpercent}%`);
         console.log(`Prezzo finale del biglietto: ${totTicketPriceTwoDecimals} euro`);
     }
-
-
     
 
 
 }
+
 
 // Messaggio di errore
 
