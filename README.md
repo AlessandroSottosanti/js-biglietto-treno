@@ -5,9 +5,6 @@
 - Far fornire dall'utente tramite prompt i Km da percorrere;
 - Far fornire dall'utente tramite prompt l'età;
 - Prezzo del biglietto per Km: 0.21 euro;
-- stato dell'utente (maggiorenne, minorenne o over65);
-- percentuale sconto (se prevista);
-
 
 sconti applicati:
 - -20% per i minorenni;
