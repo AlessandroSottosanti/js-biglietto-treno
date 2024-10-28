@@ -28,17 +28,17 @@ if (!isNaN(userDistance) && !isNaN(userAge)) {
     // Applichiamo lo stato e lo sconto in base all'età
 
     if(userAgeInt < 18) {
-        state = "underage";
+        state = "minorenni";
         discountpercent = 20;
     }
 
     else if (userAgeInt >= 65) {
-        state = "over65";
+        state = "over 65";
         discountpercent = 40;
     }
 
     else {
-        state = "adult";
+        state = "adulti";
         discountpercent = 0;
     }
 
@@ -61,8 +61,8 @@ if (!isNaN(userDistance) && !isNaN(userAge)) {
 
     console.log(`Prezzo biglietto: ${baseTicketPrice} euro`); 
 
-    if(state === "underage" || state === "over65"){
-        console.log(`Applicato sconto del ${discountpercent}%`);
+    if(state === "minorenni" || state === "over 65"){
+        console.log(`Applicato sconto per ${state} del ${discountpercent}%`);
     }
 
     console.log(`Prezzo finale del biglietto: ${totTicketPrice} euro`);
