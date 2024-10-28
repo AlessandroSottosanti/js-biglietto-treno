@@ -23,8 +23,6 @@ if (!isNaN(userDistance) && !isNaN(userAge)) {
     let userDistanceInt = parseInt(userDistance);
     let userAgeInt = parseInt(userAge);
 
-    console.log(userDistanceInt, userAgeInt);
-
     // Applichiamo lo stato e lo sconto in base all'età
 
     if(userAgeInt < 18) {
@@ -47,8 +45,6 @@ if (!isNaN(userDistance) && !isNaN(userAge)) {
 
     baseTicketPrice = userDistanceInt * ticketPrice;
 
-    console.log(baseTicketPrice);
-
 
     // aggiungiamo lo sconto
 
@@ -63,9 +59,9 @@ if (!isNaN(userDistance) && !isNaN(userAge)) {
 
     if(state === "minorenni" || state === "over 65"){
         console.log(`Applicato sconto per ${state} del ${discountpercent}%`);
+        console.log(`Prezzo finale del biglietto: ${totTicketPrice} euro`);
     }
 
-    console.log(`Prezzo finale del biglietto: ${totTicketPrice} euro`);
 
     
 
