@@ -44,5 +44,5 @@ Il valore finale sarà il prezzo del biglietto dell'utente.
 
 ## Output
 
- Stampare in console con un messaggio il prezzo totale del biglietto con massimo 2 decimali, mostrando anche il prezzo totale e se presente, lo sconto applicato in percentuale.
+ Stampare in console il prezzo totale del biglietto con massimo 2 decimali, e se presente, lo sconto applicato in percentuale.
 
