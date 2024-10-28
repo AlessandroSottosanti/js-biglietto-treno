@@ -5,11 +5,13 @@
 - Far fornire dall'utente tramite prompt i Km da percorrere;
 - Far fornire dall'utente tramite prompt l'età;
 - Prezzo del biglietto per Km: 0.21 euro;
+- stato dell'utente (maggiorenne, minorenne o over65);
+- percentuale sconto (se prevista);
 
 
 sconti applicati:
-- -20% per i minorenni
-- -40% per gli over 65
+- -20% per i minorenni;
+- -40% per gli over 65;
 
 
 ## Esecuzione Logica
@@ -45,5 +47,5 @@ Il valore finale sarà il prezzo del biglietto dell'utente.
 
 ## Output
 
- Stampare in console con un messaggio il prezzo totale del biglietto con massimo 2 decimale, mostrando anche il prezzo totale e se presente, lo sconto applicato in percentuale.
+ Stampare in console con un messaggio il prezzo totale del biglietto con massimo 2 decimali, mostrando anche il prezzo totale e se presente, lo sconto applicato in percentuale.
 
