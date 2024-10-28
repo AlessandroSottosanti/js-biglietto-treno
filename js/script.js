@@ -5,7 +5,7 @@ let userAge = prompt("Inserire la propria età");
 let state;
 let discountpercent;
 let baseTicketPrice;
-let discountValue
+let discountValue;
 let totTicketPrice;
 const ticketPrice = 0.21;
 
@@ -57,7 +57,7 @@ if (!isNaN(userDistance) && !isNaN(userAge)) {
 
     console.log(`Prezzo biglietto: ${baseTicketPrice} euro`); 
 
-    if(state === "minorenni" || state === "over 65"){
+    if(state === "minorenni" || state === "over 65") {
         console.log(`Applicato sconto per ${state} del ${discountpercent}%`);
         console.log(`Prezzo finale del biglietto: ${totTicketPrice} euro`);
     }
