@@ -52,6 +52,8 @@ if (!isNaN(userDistance) && !isNaN(userAge)) {
 
     totTicketPrice = baseTicketPrice - discountValue;
 
+    totTicketPriceTwoDecimals = totTicketPrice.toFixed(2);
+
 
 // Output
 
@@ -59,7 +61,7 @@ if (!isNaN(userDistance) && !isNaN(userAge)) {
 
     if(state === "minorenni" || state === "over 65") {
         console.log(`Applicato sconto per ${state} del ${discountpercent}%`);
-        console.log(`Prezzo finale del biglietto: ${totTicketPrice} euro`);
+        console.log(`Prezzo finale del biglietto: ${totTicketPriceTwoDecimals} euro`);
     }
 
 
