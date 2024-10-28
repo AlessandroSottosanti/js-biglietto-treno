@@ -28,7 +28,7 @@ sconti applicati:
     - Altrimenti se l'età sarà maggiore di 65 sarà over 65,
     - Altrimenti sarà maggiorenne.
 
-- Eseguire un calcolo del prezzo del biglietto in base ai Km da percorrere moltipliocato per il prezzo per Km :
+- Eseguire un calcolo del prezzo del biglietto in base ai Km da percorrere moltiplicato per il prezzo per Km :
     es. 10Km * 0.21 euro = 2.10 euro
 
     - Se l'utente sarà minorenne, calcolare il costo del biglietto rimuovendone lo sconto riservato ai minorenni: 20%;
