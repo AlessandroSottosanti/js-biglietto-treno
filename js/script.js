@@ -46,7 +46,7 @@ if (!isNaN(userDistance) && !isNaN(userAge)) {
     baseTicketPrice = userDistanceInt * ticketPrice;
 
 
-    // aggiungiamo lo sconto e convertiamo il prezzo in float
+    // aggiungiamo lo sconto e convertiamo il prezzo in float con 2 decimali
 
     discountValue = (baseTicketPrice / 100) * discountpercent;
 
