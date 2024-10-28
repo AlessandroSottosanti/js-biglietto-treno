@@ -52,7 +52,7 @@ if (!isNaN(userDistance) && !isNaN(userAge)) {
 
     totTicketPrice = baseTicketPrice - discountValue;
 
-    totTicketPriceTwoDecimals = totTicketPrice.toFixed(2);
+    totTicketPriceTwoDecimals = parseFloat(totTicketPrice.toFixed(2));
 
 
 // Output
