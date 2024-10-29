@@ -13,7 +13,9 @@ const ticketPrice = 0.21;
 
 // Esecuzione Logica
 
-if (!isNaN(userDistance) && !isNaN(userAge)) {
+if (!isNaN(userDistance) && !isNaN(userAge) 
+    && userDistance !== null && userAge !== null 
+    && userDistance !== "" && userAge !== "") {
     console.log(`km da percorrere: ${userDistance} km `);
     console.log(`Età utente: ${userAge} anni`);
     console.log(`Prezzo del biglietto per km percorso: ${ticketPrice} euro`);
