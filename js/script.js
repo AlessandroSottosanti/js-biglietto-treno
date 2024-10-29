@@ -74,5 +74,5 @@ if (!isNaN(userDistance) && !isNaN(userAge)
 // Messaggio di errore
 
 else {
-    alert("Inserire i dati correttamente con valore Numerico. Riavvia la pagina e riprova ;)");
+    alert("Inserire i dati correttamente con valore Numerico. se si sono inseriti decimali accertarsi di aver utilizzato il punto( . ) e non la virgola( , ). Riavvia la pagina e riprova ;)");
 }
